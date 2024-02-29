@@ -13,7 +13,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         model = User
         fields = ['url', 'name']
 
-class ImagesSerializer(serializers.HyperlinkedModelSerializer):
+class ImagesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Image
         fields = '__all__'

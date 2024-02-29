@@ -9,6 +9,7 @@ from .models import Image, Comments, Category
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import RefreshToken
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .serializers import *
 
@@ -72,9 +73,18 @@ class ImageViewSet(viewsets.ModelViewSet):
                 print(e)
             return Response(status=status.HTTP_400_BAD_REQUEST)    
         
-
-
+    # def destroy(self, request, *args, **kwargs):
+    #     instance = self.get_object()
+    #     # Here you can add any custom logic before deleting the instance
+    #     self.perform_destroy(instance)
+    #     # After deletion, you can add any custom logic here as well
+    #     return Response(status=status.HTTP_204_NO_CONTENT)
         
+
+    # def delete(self, request, pk, format=None):
+    #     image = self.get_object(pk)
+    #     image.delete()
+    #     return Response(status=status.HTTP_204_NO_CONTENT)    
         
 class LogoutView(APIView):
     def post(self, request):
