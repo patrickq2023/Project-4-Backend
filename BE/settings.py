@@ -32,7 +32,9 @@ SECRET_KEY = 'django-insecure-yq!_^0gb&b@%4%5p_n@l!ay+gwfb()ix9-jkjd%67pvmo@=rl2
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost'
+    'localhost',
+    'web-production-7f769.up.railway.app',
+    'web.railway.internal'
 ]
 
 
@@ -95,11 +97,11 @@ WSGI_APPLICATION = 'BE.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ['PG_DATABASE'],
-        'USER': os.environ['PG_USER'],
-        'PASSWORD': os.environ['PG_PASSWORD'],
-        'HOST': os.environ['PG_HOST'],
-        'PORT': os.environ['PG_PORT']    
+        'NAME': os.environ['PGDATABASE'],
+        'USER': os.environ['PGUSER'],
+        'PASSWORD': os.environ['PGPASSWORD'],
+        'HOST': os.environ['PGHOST'],
+        'PORT': os.environ['PGPORT']    
     }
 }
 
