@@ -33,8 +33,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'web-production-7f769.up.railway.app',
-    'web.railway.internal'
+    'project-4-backend.railway.internal',
+    'project-4-backend-production.up.railway.app'
 ]
 
 
