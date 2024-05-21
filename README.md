@@ -103,6 +103,7 @@ def create(self, request):
 
 The function below handles the submission of the form data (including the image file, keywords, and category) to the backend server using a “POST” request. It provides error handling for failed requests and triggers actions upon successful upload.
 
+````python
 
  const handleSubmit = async (e) => {
    e.preventDefault();
@@ -126,7 +127,7 @@ The function below handles the submission of the form data (including the image 
      console.error('Error uploading image:', error);
    }
  };
-
+````
 
 ## Challenges
  
