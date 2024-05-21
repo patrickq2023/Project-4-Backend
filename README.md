@@ -80,7 +80,8 @@ STEP BY STEP THROUGH THE PROCESS
 The snippet of code below is from my backend and shows a section of the views.py one of the key parts of the app. It is the “GET” request to get an object and then, if there is an image it gets uploaded to the AWS S3 bucket. It also creates the object in the database with the URL along with any additional data like keyword or category.
 
 
-````python  def create(self, request):
+````python
+def create(self, request):
        print(request)
        photo_file = request.FILES.get('image', None)
        if photo_file:
