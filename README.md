@@ -7,7 +7,7 @@ Deployment link
  
 My project was deployed to GitHub and Railway and can be found by clicking the link below:
 
-[https://project-4-frontend-production.up.railway.app/](url)
+[https://project-4-frontend-production.up.railway.app](url)
  
 
  
