@@ -37,7 +37,9 @@ Consume an API installation of the Requests package will be necessary.
 ## Planning
  
 Once I had come up with a concept that I was happy with, and one that I thought would work well, I began planning, firstly the functionality and after that, the aesthetic I wanted for the final user experience. 
-There were limitless options to choose from, but following the advice of my tutors, I chose to make an app for a personal passion, photography. I had a pretty good idea of what I wanted the finished product to look like, so after drawing up the ERD I got drafting an idea in Excalidraw. I like committing ideas to paper, so I also had a double page spread of A4 as a scratchpad to jot ideas down along with a rough timeline of what I wanted completed by when.  
+There were limitless options to choose from, but following the advice of my tutors, I chose to make an app for a personal passion, photography. I had a pretty good idea of what I wanted the finished product to look like, so after drawing up the ERD I got drafting an idea in Excalidraw. I like committing ideas to paper, so I also had a double page spread of A4 as a scratchpad to jot ideas down along with a rough timeline of what I wanted completed by when. 
+
+
 
 
  
