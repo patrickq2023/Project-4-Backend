@@ -6,6 +6,8 @@ My final project was to create another Full Stack Web Application using Python, 
 Deployment link
  
 My project was deployed to GitHub and Railway and can be found by clicking the link below:
+
+[https://project-4-frontend-production.up.railway.app/](url)
  
 
  
@@ -42,9 +44,9 @@ There were limitless options to choose from, but following the advice of my tuto
 
 
 
- 
+ ![P4 planning](https://github.com/patrickq2023/Project-4-Backend/assets/151511696/35563262-9501-48f2-8fda-e96841c54326)
 
-![Screenshot 2024-02-23 at 10 10 48](https://github.com/patrickq2023/Project-4-Backend/assets/151511696/206b4502-6647-48e7-bd33-023d0692c28a)
+
 
 
 
@@ -172,6 +174,7 @@ View of the final app. Homepage on the left and a shot of the image modal on the
  
  
 
+![P4_screen](https://github.com/patrickq2023/Project-4-Backend/assets/151511696/4baad2ec-2973-4561-8cea-697221e7a0ed)
 
 
 
